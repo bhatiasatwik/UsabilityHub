@@ -9,5 +9,24 @@
         font-weight: 700;
         color: var(--primary-text-color);
         transition: 0.2s ease-out;
-    }
+        }
+        .examples-area{
+            padding-top: 50px;
+        }
+        .examples-area-card{
+            width: calc(50% - 10px);
+            height: 300px; 
+            position: relative;
+            background-size: cover;
+            background-position:center;
+            transition:  all 0.1s linear;
+        }
+        .cta-section{
+            height: 40%;
+            margin-top: 70px;
+        }
+}
+@media screen and (max-width: 770px)    
+{
+    
 }
