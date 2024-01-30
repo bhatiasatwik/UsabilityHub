@@ -1,0 +1,13 @@
+@media screen and (max-width: 991px) 
+{
+       .nav-links{
+        display: none;
+       }
+       .Hamburger-menu{
+        display: initial;
+        font-size: 1.15rem;
+        font-weight: 700;
+        color: var(--primary-text-color);
+        transition: 0.2s ease-out;
+    }
+}
