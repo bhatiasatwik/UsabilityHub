@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    transition: all 1s linear;
 }
 :root{
     --primary-text-color:#183b56;
@@ -208,7 +209,7 @@ margin-top: 40px;
     background: url(./assets/asset\ 19.svg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    /* height: 100vh;; */
+    background-size: contain;
 }
 .features-header{
     text-align: center;
