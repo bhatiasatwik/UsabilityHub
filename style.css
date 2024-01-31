@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    transition: all 1s linear;
+    transition: all .5s linear;
 }
 :root{
     --primary-text-color:#183b56;
@@ -298,14 +298,14 @@ margin-top: 40px;
     padding-top: 20px;
     /* background-color: rgb(228, 15, 164); */
     flex-wrap: wrap;
-    gap: 20px; 
+    gap: 2%; 
 }
 .one{
     background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,1)),url(https://plus.unsplash.com/premium_photo-1682023586963-70436dba774b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fHdlYnNpdGV8ZW58MHwxfDB8fHww);
 }
 .one:hover{
     background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,1)),url(https://plus.unsplash.com/premium_photo-1682023586963-70436dba774b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fHdlYnNpdGV8ZW58MHwxfDB8fHww);
-     background-size: cover;
+    background-size: cover;
     background-position:center;
 }
 .two{
@@ -334,13 +334,17 @@ margin-top: 40px;
 }
 
 .examples-area-card{
+    position: relative;
     background-color: #20b138;
-    width: 25%;
+    width: 23%;
     height: 350px;  
     position: relative;
     background-size: cover;
     background-position:top;
     transition:  all 0.1s linear;
+}
+.examples-area-card:hover .card-text{
+    transform: translateX(0%);
 }
 .examples-area-card h3{
     position:absolute; 
@@ -350,6 +354,13 @@ margin-top: 40px;
     bottom: 20px; 
     color: white;
 }
+.card-text{
+    position:absolute;
+    /* background-color: #20b138; */
+    transform: translatey(150%);
+    transition: transform 1s ease-out;
+}
+
 
 /* CTA section */
 .cta-section{

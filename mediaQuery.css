@@ -12,6 +12,8 @@
         }
         .examples-area{
             padding-top: 50px;
+            /* background-color: aqua; */
+            row-gap: 20px;
         }
         .examples-area-card{
             width: calc(50% - 10px);
@@ -24,6 +26,10 @@
         .cta-section{
             height: 40%;
             margin-top: 70px;
+        }
+        .card-text{
+            position: relative;
+            transform: translate(0);
         }
 }
 @media screen and (max-width: 670px)    
